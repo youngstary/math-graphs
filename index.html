@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sebastian Bartosik">
+    <title>Wykres funkcji</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="libs/math.js"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu">
+            <div class="function">
+                <span>&fnof;(<i>x</i>)</span><span>=</span><input type="text" id="func">
+                <button id="draw">Draw</button>
+            </div>
+            <div class="options">
+                <button id="derivative">Derivative</button>
+            </div>
+        </div>
+        <canvas id="canvas" width="800" height="800"></canvas>
+    </div>
+</body>
+
+</html>
